@@ -1,0 +1,5 @@
+dataset_url: https://archive.ics.uci.edu/ml/machine-learning-databases/forest-fires/forestfires.csv
+test_size: 0.2
+random_state: 42
+label_threshold_area: 0.2
+target: risk
