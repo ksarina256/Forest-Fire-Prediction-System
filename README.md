@@ -1,4 +1,4 @@
-# Forest Fire Prediction System 🔥
+# Forest Fire Prediction System
 
 A production-style ML MVP that predicts **wildfire ignition risk** from weather and FWI (Fire Weather Index) features.
 It includes a training pipeline, MLflow experiment tracking, a FastAPI inference service, tests, Docker, and GitHub Actions CI.
@@ -73,6 +73,3 @@ curl -X POST http://localhost:8000/predict -H "Content-Type: application/json" -
   "month": "aug", "day": "fri"
 }'
 ```
-
-## Resume Pitch (copy/paste)
-*Built and deployed a production-style wildfire risk prediction system with an ML pipeline (scikit‑learn), experiment tracking (MLflow), and a FastAPI inference service; containerized with Docker and wired with GitHub Actions CI to run tests and build images.*
